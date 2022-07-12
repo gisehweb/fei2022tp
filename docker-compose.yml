@@ -30,6 +30,8 @@ services:
         PHP_USER_ID: ${USER_UNIX_ID}
       ports:
       - '8000:80'
+      networks:
+        red:
       
 networks:
   red:
