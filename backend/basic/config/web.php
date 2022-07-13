@@ -52,9 +52,9 @@ $config = [
             'showScriptName' => false,
             'rules' => [[
                 'class' => 'yii\rest\UrlRule',
-                'controller' => 'apiv1/carrera',
                 'pluralize'=>false,
-            ]],
+                'controller' => ['apiv1/carrera', 'apiv1/aula', 'apiv1/horariomateria', 'apiv1/materia', 'apiv1/profesor', 'apiv1/reservaaula'],
+                ]],
         ],
         
     ],
