@@ -5,7 +5,7 @@ import custom_axios from "@/plugins/axios";
 import VueAxios from "vue-axios";
 
 Vue.config.productionTip = false
-Vue.use(VueAxios, axios, custom_axios);
+Vue.use(VueAxios, custom_axios);
 
 new Vue({
   vuetify,
